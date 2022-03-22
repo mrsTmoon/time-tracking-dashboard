@@ -57,6 +57,7 @@ body {
   font-size: 0.7em;
   font-family: Rubik;
   color: hsl(235, 45%, 61%);
+  cursor: pointer;
 }
 .track-itmes {
   background-color: hsl(235, 46%, 20%);
