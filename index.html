@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./index.css">
 
   <title> Time Tracker Dashboard </title>
+  <script type='module' src="/script.js"defer></script>
 </head>
  <body>
    <div class="container">
@@ -22,9 +23,9 @@
          <p class="name">Jeremy Robson</p>
        </div>
        <div class="calender">
-         <p>Daily</p>
-         <p>Weekly</p>
-         <p>Monthly</p>
+         <p id="btn-daily">Daily</p>
+         <p id="btn-weekly">Weekly</p>
+         <p id="btn-monthly">Monthly</p>
        </div>
 
      </div>
@@ -37,9 +38,9 @@
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <div class="work-text">
-          <p>32hrs</p>
+          <p id="Work-current">32hrs</p>
           <div class="previous-work">
-          <p>
+          <p id="Work-previous">
             Last Week - 36hrs
           </p>
         </div>
@@ -55,9 +56,9 @@
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <div class="play-text">
-            <p> 10hrs</p>
+            <p id="Play-current"> 10hrs</p>
             <div class="previous-play">
-            <p>
+            <p id="Play-previous">
               Last Week - 8hrs
             
             </p>
@@ -72,9 +73,9 @@
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <div class="study-text">
-            <p> 4hrs</p>
+            <p id="Study-current"> 4hrs</p>
             <div class="previous-study">
-            <p>
+            <p id="Study-previous">
               Last Week - 7hrs
             
             </p>
@@ -89,10 +90,10 @@
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
             <div class="exercise-text">
-              <p>4hrs</p>
+              <p id="Exercise-current"> 4hrs</p>
             
               <div class="previous-exercise">
-                <p>Last Week - 5hrs</p>
+                <p id="Exercise-previous">Last Week - 5hrs</p>
               </div>
          </div>
          
@@ -107,9 +108,9 @@
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
             <div class="social-text">
-              <p>5hrs</p>
+              <p id="Social-current">5hrs</p>
               <div class="previous-social">
-                 <p>Last Week - 10hrs</p>
+                 <p id="Social-previous">Last Week - 10hrs</p>
               </div>
          </div>
          
@@ -123,9 +124,9 @@
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
             <div class="self-care-text">
-              <p>2hrs</p>
+              <p id="Self Care-current">2hrs</p>
               <div class="previous-social-care">
-                <p>Last Week - 2hrs</p>
+                <p id="Self Care-previous">Last Week - 2hrs</p>
               </div>
          </div>
          

@@ -1,12 +1,13 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-html,body {
+html,
+body {
   min-height: 100vh;
 }
-body{
+body {
   background-color: hsl(226, 43%, 10%);
   display: flex;
   justify-content: center;
@@ -14,12 +15,10 @@ body{
 }
 
 .container {
-
-  width:800px;
+  width: 800px;
   display: flex;
 }
-.menu{
-
+.menu {
   border-radius: 10px;
   height: 20rem;
   width: 10rem;
@@ -36,13 +35,11 @@ body{
   color: white;
 }
 .tracks {
-  
   flex-grow: 1;
   margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  
 }
 .profile img {
   height: 3em;
@@ -54,14 +51,12 @@ body{
 .calender {
   padding-top: 0.3em;
   padding-left: 0.5em;
-
 }
 .calender p {
   padding: 5%;
   font-size: 0.7em;
   font-family: Rubik;
   color: hsl(235, 45%, 61%);
-
 }
 .track-itmes {
   background-color: hsl(235, 46%, 20%);
@@ -89,7 +84,6 @@ body{
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 20%;
-
 }
 
 .blue {
@@ -100,7 +94,7 @@ body{
   background-size: 20%;
 }
 
-.pink{
+.pink {
   background-color: hsl(348, 100%, 68%);
   background-image: url(./images/icon-study.svg);
   background-position: top right;
@@ -124,23 +118,20 @@ body{
 }
 
 .yellow {
-  background-color:hsl(43, 84%, 65%);
+  background-color: hsl(43, 84%, 65%);
   background-image: url(./images/icon-self-care.svg);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 20%;
 }
 
-
 .track-itmes .work {
   display: flex;
-  
-  
 }
 
 .top-item-work {
   background-color: orange;
-  padding:15px;
+  padding: 15px;
   border-radius: 10px;
 }
 
@@ -159,7 +150,12 @@ p:hover {
 img.purple {
   height: 2em;
 }
-.tracks .play,.self-care,.study,.exercise,.social,.work {
+.tracks .play,
+.self-care,
+.study,
+.exercise,
+.social,
+.work {
   color: white;
   font-family: Rubik;
   margin-inline: 10%;
@@ -168,27 +164,36 @@ img.purple {
   justify-content: space-between;
   align-items: center;
 }
-.tracks .play-text,.work-text,.self-care-text,.social-text,.study-text,.exercise-text {
+.tracks .play-text,
+.work-text,
+.self-care-text,
+.social-text,
+.study-text,
+.exercise-text {
   color: white;
   font-family: Rubik;
   font-size: 2.2em;
   margin: 8%;
-  
 }
-.tracks .previous-play,.previous-exercise,.previous-play,.previous-social,.previous-social-care,.previous-study,.previous-work {
+.tracks .previous-play,
+.previous-exercise,
+.previous-play,
+.previous-social,
+.previous-social-care,
+.previous-study,
+.previous-work {
   margin: 0em;
   margin-top: 5%;
   font-size: 0.3em;
-  color:  hsl(235, 45%, 61%);
+  color: hsl(235, 45%, 61%);
 }
 
 .track-itmes__content:hover {
-  background-color:  hsl(237, 39%, 35%);
+  background-color: hsl(237, 39%, 35%);
   border: 2px solid hsl(237, 39%, 35%);
-
+  transition: 0.2s ease-in;
 }
 @media screen {
-  
 }
 @media screen and (max-width: 815px) {
   body {
@@ -217,7 +222,6 @@ img.purple {
     padding: 0;
     position: relative;
     top: -0.1em;
-
   }
   .tracks {
     flex-direction: column;
@@ -226,10 +230,14 @@ img.purple {
     margin-top: 1em;
     height: 2em;
   }
-  .track-itmes__content .work-text ,.play-text ,.study-text,.exercise-text,.social-text,.self-care-text{
+  .track-itmes__content .work-text,
+  .play-text,
+  .study-text,
+  .exercise-text,
+  .social-text,
+  .self-care-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 }
