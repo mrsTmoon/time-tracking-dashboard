@@ -48,6 +48,10 @@ body {
   border-radius: 100%;
 }
 
+p {
+  transition: 0.2ms ease-in;
+}
+
 .calender {
   padding-top: 0.3em;
   padding-left: 0.5em;
