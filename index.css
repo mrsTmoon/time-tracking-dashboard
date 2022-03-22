@@ -81,6 +81,7 @@ p {
   position: relative;
   top: 2px;
   right: 2px;
+  transition: 0.2s ease-in;
 }
 
 .orange {
@@ -196,7 +197,7 @@ img.purple {
 .track-itmes__content:hover {
   background-color: hsl(237, 39%, 35%);
   border: 2px solid hsl(237, 39%, 35%);
-  transition: 0.2s ease-in;
+  
 }
 @media screen {
 }
